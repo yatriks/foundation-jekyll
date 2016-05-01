@@ -59,10 +59,8 @@ sass:
 #   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
 #   media: 'media'
    ignore:
-     - _layouts
-     - _includes
-     - _data
-     - feed.xml
+     - _config.yml
+     - source/_layouts
 #   metadata:
 #     source/_posts:
 #       - name: "layout"
