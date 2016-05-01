@@ -23,7 +23,7 @@ source:             ./source
 destination:        ./static
 
 port:               9002
-baseurl:            ""
+baseurl:            "/"
 url:                http://yoururl.com
 
 # exclude this stuff when building the static site
@@ -44,7 +44,10 @@ site_url:           http://yoururl.com
 site_email:         site@domain.com
 site_phone:         (555) 555-1234
 
-
+collections:
+  interviews:
+    output: true
+    permalink: /interviews/:title.html
 
 # Assets
 # We specify the directory for Jekyll so we can use @imports.
@@ -52,14 +55,13 @@ sass:
   sass_dir:          ./assets/stylesheets
   style:            :compressed
 
-# # Configuration for Prose.io
+# Configuration for Prose.io
 prose:
   rooturl: 'source'
 #   siteurl: 'http://prose.github.io/starter/'
 #   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
-#   media: 'media'
+  media: 'assets'
   ignore:
-    - _config.yml
     - source/_layouts
 #   metadata:
 #     source/_posts:
