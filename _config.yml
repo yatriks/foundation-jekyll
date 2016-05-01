@@ -54,7 +54,7 @@ sass:
 
 # Configuration for Prose.io
 prose:
-  rooturl: '_posts'
+  rooturl: 'source/'
   siteurl: 'http://prose.github.io/starter/'
   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'media'
@@ -63,8 +63,10 @@ prose:
     - _config.yml
     - /_layouts
     - /_includes
+    - /_data
+    - /feed.xml
   metadata:
-    _posts:
+    source/_posts:
       - name: "layout"
         field:
           element: "hidden"
@@ -79,7 +81,7 @@ prose:
               value: "apples"
             - name: "Bananas"
               value: "bananas"
-    _posts/static:
+    static:
       - name: "layout"
         field:
           element: "hidden"
