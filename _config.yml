@@ -66,7 +66,7 @@ prose:
     - /_data
     - /feed.xml
   metadata:
-    source/_posts:
+    _posts:
       - name: "layout"
         field:
           element: "hidden"
