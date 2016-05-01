@@ -53,14 +53,14 @@ sass:
   style:            :compressed
 
 # # Configuration for Prose.io
- prose:
-   rooturl: 'source/_posts'
+prose:
+  rooturl: 'source'
 #   siteurl: 'http://prose.github.io/starter/'
 #   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
 #   media: 'media'
-   ignore:
-     - _config.yml
-     - source/_layouts
+  ignore:
+    - _config.yml
+    - source/_layouts
 #   metadata:
 #     source/_posts:
 #       - name: "layout"
