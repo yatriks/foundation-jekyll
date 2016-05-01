@@ -54,18 +54,15 @@ sass:
 
 # # Configuration for Prose.io
  prose:
-   rooturl: 'source/'
+   rooturl: 'source'
 #   siteurl: 'http://prose.github.io/starter/'
 #   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
 #   media: 'media'
    ignore:
-     - README.md
-     - LICENSE
-     - _config.yml
-     - source/_layouts
-     - source/_includes
-     - source/_data
-     - source/feed.xml
+     - _layouts
+     - _includes
+     - _data
+     - feed.xml
 #   metadata:
 #     source/_posts:
 #       - name: "layout"
