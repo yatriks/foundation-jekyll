@@ -49,6 +49,14 @@ collections:
     output: true
     permalink: /interviews/:title.html
 
+defaults:
+  - scope:
+      path: ""
+      type: interviews
+    values:
+      layout: interview
+      base_url: "../../"
+
 # Assets
 # We specify the directory for Jekyll so we can use @imports.
 sass:

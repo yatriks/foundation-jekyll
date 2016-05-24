@@ -1,7 +1,9 @@
 ---
-name: “Jarrett Key“
+layout: default
+name: "Jon Key"
+punchquote: "I actually do think we should probably burn it all down, honestly. But I also think that it extends way past police brutality."
 occupation: "Artist"
-age: "29"
+age: "32"
 location: "New York, NY"
 bio: "Jarrett Key is a something something, while flawlessly balancing x and y. Often, when bloops involved, he can floople the best of the dorples."
 tags:
