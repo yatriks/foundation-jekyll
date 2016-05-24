@@ -1,3 +1,30 @@
 //
 // Foundation-Jekyll - Custom Theme Styles
 //
+
+body {
+  font-family: "Helvetica", sans-serif;
+}
+.container {
+  padding: 2.5rem 3rem;
+  .display1 {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  .display2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.4;
+  }
+  ul.menu li {
+    a {
+      @extend .display2;
+      padding: 0;
+      color: #C8C8C8;
+    }
+    &:first-child a {
+      padding-bottom: 1.5rem;
+      color: $black;
+    }
+    }
+  }

@@ -46,7 +46,7 @@
 $global-width: rem-calc(1200);
 $global-font-size: 100%;
 $global-lineheight: 1.5;
-$primary-color: #2199e8;
+$primary-color: #7F6CFF;
 $secondary-color: #777;
 $success-color: #3adb76;
 $warning-color: #ffae00;
@@ -54,8 +54,8 @@ $alert-color: #ec5840;
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
-$black: #0a0a0a;
-$white: #fefefe;
+$black: #000000;
+$white: #ffffff;
 $body-background: $white;
 $body-font-color: $black;
 $body-font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -527,4 +527,3 @@ $topbar-padding: 0.5rem;
 $topbar-background: #eee;
 $topbar-link-color: #fff;
 $topbar-input-width: 200px;
-
