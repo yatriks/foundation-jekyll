@@ -16,11 +16,28 @@ body {
   line-height: 1.4;
 }
 
+.display3 {
+  font-size: 3rem;
+  font-weight: normal;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+  @include breakpoint(small only) {
+    font-size: 2rem;
+  }
+}
+
+h1 {
+  @extend .display3;
+  &.with-tags {
+    margin-bottom: 1.2rem;
+  }
+}
+
 p.tag {
   font-size: 0.8rem;
   display: inline-block;
-  padding: 0.25rem 0.5rem;
-  border-radius: 0.5rem;
+  padding: 0.1rem 0.65rem;
+  border-radius: 30px;
   border: 1px solid $primary-color;
   color: $primary-color;
 }
@@ -29,13 +46,28 @@ ul.menu {
   position: fixed;
   top: 2rem;
   left: 3rem;
-  li a {
-    @extend .display2;
-    padding: 0;
-    color: #C8C8C8;
-    &.active {
-      color: $primary-color;
+  &.fixed {
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+  }
+  li {
+    & a {
+      @extend .display2;
+      padding: 0;
+      color: #C8C8C8;
+      transition: 0.03s margin-top;
+      &.active {
+        color: $primary-color;
+      }
+      &:hover {
+        text-align: right;
+      }
     }
+  }
+  @include breakpoint(small only) {
+    top: 1rem;
+    left: 1.5rem;
   }
   li:first-child a {
     padding-bottom: 1.5rem;
@@ -44,14 +76,24 @@ ul.menu {
 }
 .container {
   padding: 15rem 3rem 2rem 3rem;
+  @include breakpoint(small only) {
+    padding: 12rem 1.5rem 1rem 1.5rem;
+  }
   & .interview-grid {
     margin-bottom: 3rem;
     // Circle Block
     & .interview-container {
+      opacity: 1;
       box-sizing: border-box;
       transition: 0.2s opacity;
+      height: 12rem;
+      margin-bottom: 1rem;
       &.unfocused {
         opacity: 0.2;
+        & .interview {
+          color: $primary-color;
+          border: 1px solid $primary-color;
+        }
       }
       & .interview {
         color: $primary-color;
@@ -59,31 +101,43 @@ ul.menu {
         box-sizing: border-box;
         border-radius: 800px;
         font-size: 1rem;
-        height: 12.5rem;
         position: relative;
         margin-bottom: 3rem;
+        padding: 0 !important;
+        // sets 'height' equal to width
+        &:before{
+            content: "";
+            display: block;
+            padding-top: 100%;  /* ratio of 1:1*/
+        }
         &:hover {
           cursor: pointer;
         }
         & p {
+          padding: 0;
           position: absolute;
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
+          text-align: center;
         }
       }
       & .description {
         overflow: visible;
         height: 12.5rem;
         padding-top: 5.01rem;
+        display: none;
         & p {
           opacity: 0;
           transition: 0.2s opacity;
-          &.visible {
+        }
+        &.visible {
+          display: block;
+          & p {
             opacity: 1;
             display: block;
           }
-          &.tag.visible {
+          & p.tag {
             display: inline-block;
           }
         }
@@ -92,14 +146,34 @@ ul.menu {
       &:nth-child(4n+4) {
         & .interview {
           @extend .large-push-7;
+          @extend .medium-push-7;
         }
         & .description {
           text-align: right;
           @extend .large-pull-5;
+          // @extend .medium-pull-2;
         }
       }
       &:last-child {
         @extend .end;
+      }
+      @include breakpoint(medium only) {
+        & .description {
+          padding-top: 0;
+          width: 150%;
+          float: left;
+        }
+        &:nth-child(4n+4) {
+          & .description {
+            float: right;
+          }
+        }
+        &:nth-child(4n+3) {
+          & .description {
+            text-align: left;
+            margin-left: 12rem;
+          }
+        }
       }
     }
     // & .description {

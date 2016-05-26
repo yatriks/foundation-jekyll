@@ -1,10 +1,20 @@
-{% include header.html %}
+{% include header.html fixed=" fixed" %}
 
-  <div class="container row expanded">
+<div class="container row expanded">
     <div class="row">
-      <div class="large-6 columns end">
-      {{ content }}
+      <div class="small-10 columns end">
+        <h1 class="with-tags">{{ page.name }}</h1>
+      </div>
     </div>
-  </div>
+    <div class="row">
+      <div class="small-12 medium-10 large-6 large-offset-1 columns end">
+        <p class="tag">{{ page.age }}</p>
+        <p class="tag">{{ page.location }}</p>
+        {% for tag in page.topics %}
+          <p class="tag">{{ tag.name }}</p>
+        {% endfor %}
+        {{ content }}
+      </div>
+    </div>
 </div>
 {% include footer.html %}

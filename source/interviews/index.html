@@ -7,11 +7,11 @@ order: 0
 <div class="container row expanded">
   <div class="row collapse interview-grid">
     {% for i in site.interviews %}
-    <div class="large-5 columns interview-container">
-      <div class="large-5 columns interview">
+    <div class="large-5 medium-5 columns interview-container">
+      <a class="large-5 small-6 medium-5 small-offset-3 large-offset-0 medium-offset-0 columns interview" href="{{ i.url }}">
         <p>{{ i.name }}</p>
-      </div>
-      <div class="large-7 columns description">
+      </a>
+      <div class="large-7 medium-7 columns description">
         <p class="tag">{{ i.age }}</p>
         <p class="tag">{{ i.location }}</p>
         <p class="display2">{{ i.punchquote }}</p>

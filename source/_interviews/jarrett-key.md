@@ -6,11 +6,9 @@ age: "21"
 location: "New York, NY"
 bio: "Jarrett Key is a something something, while flawlessly balancing x and y. Often, when bloops involved, he can floople the best of the dorples."
 tags:
-    issue: "1"
-    topics:
-      - "Activism"
-      - "Happiness"
-      - "Bloop"
+  - tag: "Activism"
+  - tag: "Happiness"
+  - tag: "Bloop"
 ---
 
 This uses standard [Markdown Syntax](https://daringfireball.net/projects/markdown/syntax) for typing.

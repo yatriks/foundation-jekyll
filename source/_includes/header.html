@@ -36,7 +36,7 @@
   </head>
   <body>
     <div class="row expanded">
-      <ul class="menu vertical">
+      <ul class="menu vertical{{ include.fixed }}">
         <li><a href="/">Wade in the Water</a></li>
         {% assign pages = site.pages | sort:"order" %}
         {% for p in pages %}
