@@ -7,12 +7,14 @@
       </div>
     </div>
     <div class="row">
-      <div class="small-12 medium-10 large-6 large-offset-1 columns end">
-        <p class="tag">{{ page.age }}</p>
-        <p class="tag">{{ page.location }}</p>
+      <div class="large-6 medium-10 small-12 large-offset-1 columns end">
+        <span class="tag">{{ page.age }}</span>
+        <span class="tag">{{ page.location }}</span>
         {% for tag in page.topics %}
-          <p class="tag">{{ tag.name }}</p>
-        {% endfor %}
+          <span class="tag">{{ tag.name }}</span>
+          {% endfor %}
+      </div>
+      <div class="interview-text small-12">
         {{ content }}
       </div>
     </div>

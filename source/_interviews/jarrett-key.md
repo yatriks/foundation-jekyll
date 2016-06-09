@@ -17,7 +17,9 @@ Copying the body of a core interview text in Techies Project, the content of thi
 
 **Tell me a bit about your early years and where you come from.**
 
-My family’s from a farming community in Haiti. When my parents moved to Boston in their mid twenties, they had children pretty immediately. At the time, me and my 3 siblings lived in mostly illegal communities. It’s interesting because you don’t know that you live in that sort of community until you start meeting Americans who live a bit differently. We were very “green.” We used buckets of water to bathe instead of running shower water. Our front lawn was a garden. My parents were not accustomed to refrigerators so they became a pneumonia scare in our household. In fact, to them everything caused pneumonia and everything could be cured with a cup of tea.
+My family’s from a farming community in Haiti. When my parents moved to Boston in their mid twenties, they had children pretty immediately. At the time, me and my 3 siblings lived in mostly illegal communities. It’s interesting because you don’t know that you live in that sort of community until you start meeting Americans who live a bit differently. We were very “green.”
+<img src="http://payload343.cargocollective.com/1/18/580795/9173785/I-AM-new_1600_c.jpg" />
+We used buckets of water to bathe instead of running shower water. Our front lawn was a garden. My parents were not accustomed to refrigerators so they became a pneumonia scare in our household. In fact, to them everything caused pneumonia and everything could be cured with a cup of tea.
 
 **How were you were first introduced to Computer Science and/or UX?**
 
