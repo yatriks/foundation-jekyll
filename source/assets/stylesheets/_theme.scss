@@ -25,6 +25,15 @@ body {
     font-size: 2rem;
   }
 }
+.display4 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+  @include breakpoint(small only) {
+    font-size: 2rem;
+  }
+}
 
 h1 {
   @extend .display3;
@@ -59,6 +68,9 @@ ul.menu {
       transition: 0.03s margin-top;
       &.active {
         color: $primary-color;
+        &.print {
+          color: $warning-color;
+        }
       }
       &:hover {
         opacity: 0.8;
@@ -191,5 +203,87 @@ ul.menu {
     // & .description {
     //   color: #fff;
     // }
+  }
+
+  & .interview-feature {
+    display: relative;
+    & .interview {
+        color: $primary-color;
+        border: 1px solid $primary-color;
+        box-sizing: border-box;
+        border-radius: 800px;
+        font-size: 1rem;
+        position: relative;
+        margin-bottom: 3rem;
+        padding: 0 !important;
+        // sets 'height' equal to width
+        &:before{
+            content: "";
+            display: block;
+            padding-top: 100%;  /* ratio of 1:1*/
+        }
+        &:hover {
+          cursor: pointer;
+        }
+        & p {
+          padding: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }
+      }
+    & .description {
+      overflow: visible;
+      height: 12.5rem;
+      padding-top: 5.01rem;
+      display: none;
+      & p {
+        opacity: 0;
+        transition: 0.2s opacity;
+      }
+      &.visible {
+        display: fixed;
+        & p {
+          opacity: 1;
+          display: block;
+        }
+        & p.tag {
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  & .issue-grid {
+    & .issue {
+      color: $warning-color;
+      border: 1px solid $warning-color;
+      box-sizing: border-box;
+      border-radius: 800px;
+      font-size: 1rem;
+      position: relative;
+      margin-bottom: 3rem;
+      padding: 0 !important;
+      // sets 'height' equal to width
+      &:before{
+          content: "";
+          display: block;
+          padding-top: 100%;  /* ratio of 1:1*/
+      }
+      & p {
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    }
+    img.cover {
+      padding: 5px;
+      border: 1px solid #D7D7D7;
+    }
   }
 }

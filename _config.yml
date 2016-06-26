@@ -1,4 +1,4 @@
-title:              Foundation-Jekyll
+title:               Wade in the Water
 
 # Versioning
 current_version: 1.5.0
@@ -37,12 +37,12 @@ exclude:            [
 ## CUSTOM VARS
 
 #ga_id:             ##-########-###
-site_name:          Foundation-Jekyll
-site_description :  The awesomeness of Foundation 6... powered by Jekyll
-site_copyright:     Copyright (c) 2016 @aaronkwhite
+site_name:          Wade in the Water
+site_description :  An Oral History of the Movement
+site_copyright:     Copyright (c) 2016 Maya Meredith
 site_url:           http://yoururl.com
-site_email:         site@domain.com
-site_phone:         (555) 555-1234
+site_email:         yatriksolanki@gmail.com
+site_phone:
 
 collections:
   interviews:

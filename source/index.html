@@ -5,16 +5,27 @@ base_url: "../../"
 hide: true
 ---
 <div class="container row expanded">
-  <div class="row collapse interview-grid">
-    {% for i in (1..17) %}
-    <div class="large-5 columns interview-container">
-      <div class="large-5 columns interview">
-        <p>Name Here</p>
-      </div>
-      <div class="large-7 columns description">
-        <p>Details Here</p>
-      </div>
+  <div class="row">
+    <div class="small-10 columns end">
+      <h3>Wade in the Water is a grassroots oral history of Black lives in the United States. <a href="/about">More about us &rarr;</a></h3>
     </div>
+  </div>
+  <br /><br /><br />
+  <div class="row">
+    <div class="small-12 columns"><p class="display2">Featured Interviews</p></div>
+    {% for i in site.interviews %}
+    {% if forloop.index == 3 or forloop.index == 4 or forloop.index == 5 or forloop.index == 6 %}
+    <div class="interview-feature">
+      <a class="small-7 medium-2 columns interview small-only-center end" href="{{ i.url }}">
+        <p>{{ i.name }}</p>
+      </a>
+    </div>
+    {% endif %}
     {% endfor %}
-  </ul>
+  </div>
+  <div class="row">
+    <div class="small-12 columns"><p class="display2">In Print</p></div>
+
+  </div>
+
 </div>
