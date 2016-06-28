@@ -18,13 +18,14 @@
       <meta http-equiv="refresh" content="5; url=/">
     {% endif %}
     <!-- /404 Redirect -->
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="{{ page.base_url }}assets/stylesheets/style.css" />
   </head>
   <body>
     <div class="row expanded">
       <ul class="menu vertical{{ include.fixed }}">
-        <li><a href="/">Wade in the Water</a></li>
+        <!-- <li><a href="/">Wade in the Water</a></li> -->
         {% assign pages = site.pages | sort:"order" %}
         {% for p in pages %}
         {% unless p.hide %}

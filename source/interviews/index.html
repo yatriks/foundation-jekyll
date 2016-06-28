@@ -11,9 +11,9 @@ order: 0
       <a class="large-5 small-7 medium-7 large-offset-0 medium-offset-0 columns interview" href="{{ i.url }}">
         <p>{{ i.name }}</p>
       </a>
-      <div class="large-7 medium-7 columns description">
-        <p class="tag">{{ i.age }}</p>
-        <p class="tag">{{ i.location }}</p>
+      <div class="large-7 medium-5 columns description">
+        {% if i.occupation %}<span class="tag icon"><i class="material-icons">work</i>&nbsp;{{ i.occupation }}</span>{% endif %}
+        {% if i.location %}<span class="tag icon"><i class="material-icons">location_on</i>&nbsp;{{ i.location }}</span>{% endif %}
         <p class="display2">{{ i.punchquote }}</p>
       </div>
     </div>

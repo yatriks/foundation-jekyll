@@ -7,12 +7,13 @@
       </div>
     </div>
     <div class="row">
-      <div class="large-6 medium-10 small-12 large-offset-1 tags columns end">
-        <span class="tag">{{ page.age }}</span>
-        <span class="tag">{{ page.location }}</span>
+      <div class="medium-10 small-12 tags columns end">
+        <p class="display4 subheader">{{ page.bio }}</p>
+        {% if page.occupation %}<span class="tag icon"><i class="material-icons">work</i>&nbsp;{{ page.occupation }}</span>{% endif %}
+        {% if page.location %}<span class="tag icon"><i class="material-icons">location_on</i> {{ page.location }}</span><br />{% endif %}
         {% for tag in page.topics %}
-          <span class="tag">{{ tag.name }}</span>
-          {% endfor %}
+            <span class="tag">{{ tag }}</span>
+        {% endfor %}
       </div>
       <div class="interview-text small-12">
         {{ content }}
