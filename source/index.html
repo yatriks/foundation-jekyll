@@ -16,7 +16,7 @@ hide: true
     {% for i in site.interviews %}
     {% if forloop.index == 3 or forloop.index == 4 or forloop.index == 5 or forloop.index == 6 %}
     <div class="interview-feature">
-      <a class="small-7 medium-2 columns interview small-only-center end" href="{{ i.url }}">
+      <a class="small-7 medium-3 large-2 columns interview end" href="{{ i.url }}">
         <p>{{ i.name }}</p>
       </a>
     </div>
@@ -25,6 +25,19 @@ hide: true
   </div>
   <div class="row">
     <div class="small-12 columns"><p class="display2">In Print</p></div>
+    <div class="small-12 columns">
+      <div class="issue-feature">
+      <a class="small-10 medium-6 large-4 columns issue end" href="{{ i.url }}">
+      <p>A Year in the Movement</p>
+      </a>
+    </div>
+    <div class="issue-feature">
+      <a class="small-10 medium-6 large-4 columns issue end" href="{{ i.url }}">
+      <p>A Year in the Movement</p>
+      </a>
+    </div></div>
+
+
 
   </div>
 

@@ -6,11 +6,6 @@
 // Init Foundation
 $(document).foundation();
 
-function randomIntFromInterval(min,max)
-{
-    return (Math.random()*(max-min+1)+min);
-}
-
 jQuery(document).ready(function($) {
 
   $.each($('.interview-text > p'), function(i, val) {
@@ -26,19 +21,7 @@ jQuery(document).ready(function($) {
       // $(this).after('<div class="hide-for-small medium-2 large-5 columns" style="border:1px solid red;">hi</div>');
     }
   });
-
-  $.each($(".interview"), function (i, val) {
-    $(this).css("margin-top",randomIntFromInterval(-20, 20));
-    $(this).parent().css("margin-left",randomIntFromInterval(-20, 20));
-  });
-
-  // Hover for interviews
-  $(".interview").hover(function() {
-    if ($( window ).width() > "640") {
-        $(this).siblings().toggleClass("visible");
-        $(this).parent().siblings().toggleClass("unfocused");
-      }
-  });
+  
 });
 
 // Init Highlight.js
