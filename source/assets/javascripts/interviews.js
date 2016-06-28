@@ -13,30 +13,21 @@ function randomIntFromInterval(min,max)
 
 jQuery(document).ready(function($) {
 
-  $.each($('.interview-text > p'), function(i, val) {
-    $(this).attr("data-para-index",i);
-    if(!$(this).has("img").length) {
-      $(this).addClass("end");
-    } else {
-      var para = $(this);
-      var image = $(this).children("img").attr("src");
-      var leftOffset = para.offset().left + para.width() + 30;
-      para.after("<div class='medium-2 large-4' style='position: absolute; left: "+ leftOffset +"px ;top:"+para.offset().top+"px;'><img src='"+image+"' /></div>");
-      // console.log("hi");
-      // $(this).after('<div class="hide-for-small medium-2 large-5 columns" style="border:1px solid red;">hi</div>');
-    }
-  });
-
-  $.each($(".interview"), function (i, val) {
-    $(this).css("margin-top",randomIntFromInterval(-20, 20));
-    $(this).parent().css("margin-left",randomIntFromInterval(-20, 20));
-  });
+  // $.each($(".interview"), function (i, val) {
+  //   if ($( window ).width() > "640") {
+  //     $(this).css("margin-top",randomIntFromInterval(-20, 0)+"px");
+  //     $(this).parent().css("margin-left",randomIntFromInterval(-20, 20)+"px");
+  //   } else if ($( window ).width() <= "640") {
+  //     $(this).parent().css("margin-left",randomIntFromInterval(-20, 20)+"px");
+  //     $(this).parent(":not(:first-child)").css("margin-top",randomIntFromInterval(-50, -20)+"px");
+  //   }
+  // });
 
   // Hover for interviews
   $(".interview").hover(function() {
+    $(this).parent().siblings().toggleClass("unfocused");
     if ($( window ).width() > "640") {
         $(this).siblings().toggleClass("visible");
-        $(this).parent().siblings().toggleClass("unfocused");
       }
   });
 });

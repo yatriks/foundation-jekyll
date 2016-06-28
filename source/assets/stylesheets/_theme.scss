@@ -11,11 +11,11 @@ body {
 }
 
 .button.warning:hover {
-  background-color: darken($warning-color, 5%);
+  background-color: darken($warning-color, 2%);
   &.hollow {
     background-color: $white;
-    border: 1px solid darken($warning-color, 5%);
-    color: darken($warning-color, 10%);
+    border: 1px solid darken($warning-color, 2%);
+    color: darken($warning-color, 5%);
   }
 }
 .display1 {
@@ -65,20 +65,14 @@ p.tag, span.tag {
 }
 
 ul.menu {
-  position: fixed;
+  position: relative;
   top: 2rem;
-  left: 3rem;
-  &.fixed {
-    position: absolute;
-    top: 2rem;
-    left: 3rem;
-  }
+  left: 2rem;
   li {
     & a {
       @extend .display2;
       padding: 0;
       color: #C8C8C8;
-      transition: 0.03s margin-top;
       &.active {
         color: $primary-color;
         &.print {
@@ -86,23 +80,28 @@ ul.menu {
         }
       }
       &:hover {
-        opacity: 0.8;
+        color: rgba(0,0,0,0.28);
+        &.active {
+          color: darken($primary-color,5%);
+          &.print {
+            color: darken($warning-color,3%);
+          }
+        }
       }
     }
   }
   @include breakpoint(small only) {
-    top: 1rem !Important;
-    left: 1.5rem !Important;
+    top: 1rem;
+    left: 1rem;
   }
   li:first-child a {
-    padding-bottom: 1.5rem;
     color: $black;
   }
 }
 .container {
-  padding: 15rem 3rem 2rem 3rem;
+  padding: 3rem 2rem;
   @include breakpoint(small only) {
-    padding: 12rem 1.5rem 1rem 1.5rem;
+    padding: 2rem 1rem ;
   }
   .interview-text {
     p {
@@ -129,7 +128,7 @@ ul.menu {
       opacity: 1;
       box-sizing: border-box;
       transition: 0.2s opacity;
-      height: 12rem;
+
       margin-bottom: 1rem;
       &.unfocused {
         opacity: 0.2;
@@ -165,6 +164,7 @@ ul.menu {
           text-align: center;
         }
       }
+
       & .description {
         overflow: visible;
         height: 12.5rem;
@@ -218,6 +218,10 @@ ul.menu {
           }
         }
       }
+      @include breakpoint(small only) {
+        margin-bottom: -3rem;
+        margin-left: 21%;
+      }
     }
     // & .description {
     //   color: #fff;
@@ -226,6 +230,14 @@ ul.menu {
 
   & .interview-feature {
     position: relative;
+    transition: 0.2s opacity;
+    &.unfocused {
+      opacity: 0.4;
+      & .interview {
+        color: $primary-color;
+        border: 1px solid $primary-color;
+      }
+    }
     & .interview {
         color: $primary-color;
         border: 1px solid $primary-color;
@@ -241,11 +253,6 @@ ul.menu {
             content: "";
             display: block;
             padding-top: 100%;  /* ratio of 1:1*/
-        }
-        &:hover {
-          cursor: pointer;
-          color: darken($primary-color, 20%);
-          border: 1px solid darken($primary-color, 20%);
         }
         & p {
           padding: 0;
@@ -265,31 +272,11 @@ ul.menu {
           & .interview { margin-bottom: 3rem; }
         }
       }
-    // & .description {
-    //   overflow: visible;
-    //   height: 12.5rem;
-    //   padding-top: 5.01rem;
-    //   display: none;
-    //   & p {
-    //     opacity: 0;
-    //     transition: 0.2s opacity;
-    //   }
-    //   &.visible {
-    //     display: fixed;
-    //     & p {
-    //       opacity: 1;
-    //       display: block;
-    //     }
-    //     & p.tag {
-    //       display: inline-block;
-    //     }
-    //   }
-    // }
   }
 
   & .issue-feature {
-
       position: relative;
+      transition: 0.2s opacity;
       & .issue {
           color: $warning-color;
           border: 1px solid $warning-color;
@@ -300,6 +287,9 @@ ul.menu {
           margin-bottom: 3rem;
           margin-right: -2.5rem;
           padding: 0 !important;
+          &.unfocused {
+            opacity: 0.4;
+          }
           // sets 'height' equal to width
           &:before{
               content: "";
@@ -308,8 +298,8 @@ ul.menu {
           }
           &:hover {
             cursor: pointer;
-            color: darken($warning-color, 5%);
-            border: 1px solid darken($warning-color, 5%);
+            color: $warning-color;
+            border: 1px solid $warning-color;
           }
           & p {
             padding: 0;
