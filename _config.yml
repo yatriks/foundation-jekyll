@@ -19,7 +19,7 @@ markdown:           kramdown
 permalink:          pretty
 
 # Server
-source:             ./source
+source:             ./
 destination:        ./static
 
 port:               9002
