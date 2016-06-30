@@ -5,10 +5,10 @@ current_version: 1.5.0
 foundation_version: 6.0.0
 
 author:
-  name:             username
-  email:            user@domain.com
-  github:           username
-  twitter:          username
+  name:             yatrik
+  email:            yatriksolanki@gmail.com
+  github:           yatriks
+  twitter:          kirtay
 
 # Dependencies
 markdown:           kramdown
@@ -24,7 +24,7 @@ destination:        ./static
 
 port:               9002
 baseurl:            "/"
-url:                http://yoururl.com
+url:
 
 # exclude this stuff when building the static site
 exclude:            [
@@ -40,7 +40,7 @@ exclude:            [
 site_name:          Wade in the Water
 site_description :  An Oral History of the Movement
 site_copyright:     Copyright (c) 2016 Maya Meredith
-site_url:           http://yoururl.com
+site_url:
 site_email:         yatriksolanki@gmail.com
 site_phone:
 
@@ -70,7 +70,7 @@ prose:
 #   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'assets'
   ignore:
-    - source/_layouts
+    - _layouts
 #   metadata:
 #     source/_posts:
 #       - name: "layout"
