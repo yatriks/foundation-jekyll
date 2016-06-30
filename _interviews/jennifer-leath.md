@@ -1,18 +1,34 @@
 ---
 layout: interview
-name: "Jennifer S. Leath"
-occupation: "Religious Scholar"
-location: "Denver, CO"
-Punchy quote: "Christianity has been dominant in the experiences of Black people in the U.S. for the past 150 years, but this is not what we always were. And this is not what our spirituality and our sense of the divine always was."
-bio: "Dr. Jennifer S. Leath is the assistant professor of religion and social justice at the Iliff School of Theology in Denver, where her scholarship is centered on the intersection of sexualities and religions in sacred communities and spaces of African Diaspora. She holds a B.A. from Harvard University, an M.A., M.Phil., and Ph.D from Yale University, and an M.Div from Union Theological Seminary. She is also an Itinerant Elder in the African Methodist Episcopal Church, having served as a pastor in New York and Pennsylvania."
-interview_date: "10/21/2016"
-issue: "1"
+name: Jennifer S. Leath
+occupation: Religious Scholar
+location: 'Denver, CO'
+Punchy quote: >-
+  Christianity has been dominant in the experiences of Black people in the U.S.
+  for the past 150 years, but this is not what we always were. And this is not
+  what our spirituality and our sense of the divine always was.
+bio: >-
+  Dr. Jennifer S. Leath is the assistant professor of religion and social
+  justice at the Iliff School of Theology in Denver, where her scholarship is
+  centered on the intersection of sexualities and religions in sacred
+  communities and spaces of African Diaspora. She holds a B.A. from Harvard
+  University, an M.A., M.Phil., and Ph.D from Yale University, and an M.Div from
+  Union Theological Seminary. She is also an Itinerant Elder in the African
+  Methodist Episcopal Church, having served as a pastor in New York and
+  Pennsylvania.
+interview_date: 10/21/2016
+issue: '1'
 topics:
-  - "Religion"
-  - "Academia"
-  - "Civil Rights Movement"
-  - "Protest tactics"
-  - "Emotional response"
+  - Religion
+  - Academia
+  - Civil Rights Movement
+  - Protest tactics
+  - Emotional response
+published: true
+punchquote: >-
+  Christianity has been dominant in the experiences of Black people in the U.S.
+  for the past 150 years, but this is not what we always were. And this is not
+  what our spirituality and our sense of the divine always was.
 ---
 **Have you engaged in any social justice activism?**
 
