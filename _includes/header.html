@@ -20,7 +20,7 @@
     <!-- /404 Redirect -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    <link rel="stylesheet" href="{{ page.base_url }}assets/stylesheets/style.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/stylesheets/style.css" />
   </head>
   <body>
     <div class="row expanded">
@@ -30,7 +30,7 @@
         {% for p in pages %}
         {% unless p.hide %}
           <li>
-            <a class="{{ p.url | remove: "/" }}{% if p.url == page.url %} active{% endif %}" href="{{ p.url }}">{{ p.title }}</a>
+            <a class="{{ p.url | remove: "/" }}{% if p.url == page.url %} active{% endif %}" href="{{ p.url | prepend:site.baseurl }}">{{ p.title }}</a>
           </li>
         {% endunless %}
         {% endfor %}

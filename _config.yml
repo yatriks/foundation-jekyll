@@ -24,7 +24,7 @@ destination:        ./static
 
 port:               9002
 baseurl:            /foundation-jekyll
-url:                "http://yatriks.github.io/foundation-jekyll/"
+url:                http://yatriks.github.io
 
 # exclude this stuff when building the static site
 exclude:            [
