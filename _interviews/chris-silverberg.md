@@ -1,20 +1,29 @@
 ---
 layout: interview
-name: "Chris Silverberg"
-occupation: "Television Editor"
-age: "25"
-location: "New York, NY"
-Punchy quote: "All of these Black artists coming from a Black perspective with Black ideas—that was to me really the biggest part of learning about Blackness."
-bio: "Raised in Dallas, Texas and based in New York City, Chris Silverberg is a graduate of Columbia University, where he studied English Literature. He currently works as a television editor."
-interview_date: October 17, 2016
-issue: "1"
+name: Chris Silverberg
+occupation: Television Editor
+age: '25'
+location: 'New York, NY'
+Punchy quote: >-
+  All of these Black artists coming from a Black perspective with Black
+  ideas—that was to me really the biggest part of learning about Blackness.
+bio: >-
+  Raised in Dallas, Texas and based in New York City, Chris Silverberg is a
+  graduate of Columbia University, where he studied English Literature. He
+  currently works as a television editor.
+interview_date: 'October 17, 2016'
+issue: '1'
 topics:
-  - "High School"
-  - "Family"
-  - "Civil Rights Movement"
-  - "Consciousness raising"
-  - "Black writers"
-  - "Emotional response"
+  - High School
+  - Family
+  - Civil Rights Movement
+  - Consciousness raising
+  - Black writers
+  - Emotional response
+published: true
+punchquote: >-
+  All of these Black artists coming from a Black perspective with Black
+  ideas—that was to me really the biggest part of learning about Blackness.
 ---
 **Do you wanna tell me a little bit about yourself, Chris? What do you do?**
 
