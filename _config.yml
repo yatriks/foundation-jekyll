@@ -24,7 +24,7 @@ destination:        ./static
 
 port:               9002
 baseurl:            "/"
-url:
+url:                "http://yatriks.github.io/foundation-jekyll/"
 
 # exclude this stuff when building the static site
 exclude:            [
@@ -37,11 +37,11 @@ exclude:            [
 ## CUSTOM VARS
 
 #ga_id:             ##-########-###
-site_name:          Wade in the Water
-site_description :  An Oral History of the Movement
-site_copyright:     Copyright (c) 2016 Maya Meredith
-site_url:
-site_email:         yatriksolanki@gmail.com
+site_name:          "Wade in the Water"
+site_description :  "An Oral History of the Movement"
+site_copyright:     "Copyright (c) 2016 Maya Meredith"
+site_url:           "http://yatriks.github.io/foundation-jekyll/"
+site_email:         "yatriksolanki@gmail.com"
 site_phone:
 
 collections:
@@ -65,7 +65,7 @@ sass:
 
 # Configuration for Prose.io
 prose:
-  rooturl: 'source'
+  rooturl: '/'
 #   siteurl: 'http://prose.github.io/starter/'
 #   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'assets'
