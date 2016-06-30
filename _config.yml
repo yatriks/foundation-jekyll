@@ -55,12 +55,12 @@ defaults:
       type: interviews
     values:
       layout: interview
-      base_url: "../../"
+      base_url: "../"
 
 # Assets
 # We specify the directory for Jekyll so we can use @imports.
 sass:
-  sass_dir:          ./assets/stylesheets/
+  sass_dir:          assets/stylesheets/
   style:            :compressed
 
 # Configuration for Prose.io
