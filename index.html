@@ -1,13 +1,11 @@
 ---
 layout: default
 title: Wade in the Water
-base_url: "../../"
-
 ---
 <div class="container row expanded">
   <div class="row">
     <div class="small-10 columns end">
-      <p class="display4">Wade in the Water is a grassroots oral history of Black lives in the United States. <a style="display: inline-block;" href="/about">More about us &rarr;</a></p>
+      <p class="display4">Wade in the Water is a grassroots oral history of Black lives in the United States. <a style="display: inline-block;" href="{{ site.baseurl }}/about">More about us &rarr;</a></p>
     </div>
   </div>
   <br />
@@ -16,7 +14,7 @@ base_url: "../../"
     {% for i in site.interviews %}
     {% if forloop.index == 3 or forloop.index == 4 or forloop.index == 5 or forloop.index == 6 %}
     <div class="interview-feature">
-      <a class="small-7 medium-3 large-2 columns interview end" href="{{ i.url }}">
+      <a class="small-7 medium-3 large-2 columns interview end" href="{{ site.baseurl }}{{ i.url }}">
         <p>{{ i.name }}</p>
       </a>
     </div>
@@ -27,12 +25,12 @@ base_url: "../../"
     <div class="small-12 columns"><p class="display2">In Print</p></div>
     <div class="small-12 columns">
     <div class="issue-feature">
-      <a class="small-10 medium-6 large-4 columns issue end" href="/print/">
+      <a class="small-10 medium-6 large-4 columns issue end" href="{{ site.baseurl }}/print/">
       <p>001 // A Year of the Movement for Black Lives</p>
       </a>
     </div>
     <div class="issue-feature">
-      <a class="small-10 medium-6 large-4 columns issue end" href="/print/#issue-02">
+      <a class="small-10 medium-6 large-4 columns issue end" href="{{ site.baseurl }}/print/#issue-02">
       <p>002 // The Master's Tools</p>
       </a>
     </div></div>

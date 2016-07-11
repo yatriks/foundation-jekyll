@@ -5,10 +5,10 @@ current_version: 1.5.0
 foundation_version: 6.0.0
 
 author:
-  name:             username
-  email:            user@domain.com
-  github:           username
-  twitter:          username
+  name:             yatrik
+  email:            yatriksolanki@gmail.com
+  github:           yatriks
+  twitter:          kirtay
 
 # Dependencies
 markdown:           kramdown
@@ -19,12 +19,12 @@ markdown:           kramdown
 permalink:          pretty
 
 # Server
-source:             ./source
+source:             ./
 destination:        ./static
 
 port:               9002
-baseurl:            "/"
-url:                http://yoururl.com
+baseurl:            /foundation-jekyll
+url:                http://yatriks.github.io
 
 # exclude this stuff when building the static site
 exclude:            [
@@ -37,11 +37,11 @@ exclude:            [
 ## CUSTOM VARS
 
 #ga_id:             ##-########-###
-site_name:          Wade in the Water
-site_description :  An Oral History of the Movement
-site_copyright:     Copyright (c) 2016 Maya Meredith
-site_url:           http://yoururl.com
-site_email:         yatriksolanki@gmail.com
+site_name:          "Wade in the Water"
+site_description :  "An Oral History of the Movement"
+site_copyright:     "Copyright (c) 2016 Maya Meredith"
+site_url:           "http://yatriks.github.io/foundation-jekyll/"
+site_email:         "yatriksolanki@gmail.com"
 site_phone:
 
 collections:
@@ -55,38 +55,38 @@ defaults:
       type: interviews
     values:
       layout: interview
-      base_url: "../../"
+      base_url: ""
 
 # Assets
 # We specify the directory for Jekyll so we can use @imports.
 sass:
-  sass_dir:          ./assets/stylesheets/
+  sass_dir:          assets/stylesheets/
   style:            :compressed
 
 # Configuration for Prose.io
-prose:
-  rooturl: 'source'
-#   siteurl: 'http://prose.github.io/starter/'
-#   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
-  media: 'assets'
-  ignore:
-    - source/_layouts
+# prose:
+#   rooturl: '/'
+# #   siteurl: 'http://prose.github.io/starter/'
+# #   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+#   media: 'assets'
+#   ignore:
+#     - _layouts
 #   metadata:
 #     source/_posts:
 #       - name: "layout"
 #         field:
 #           element: "hidden"
 #           value: "blog"
-#       - name: "tags"
+#       - name: "topics"
 #         field:
 #           element: "multiselect"
 #           label: "Add Tags"
 #           placeholder: "Choose Tags"
-#           options:
-#             - name: "Apples"
-#               value: "apples"
-#             - name: "Bananas"
-#               value: "bananas"
+#           # options:
+#           #   - name: "Apples"
+#           #     value: "apples"
+#           #   - name: "Bananas"
+#           #     value: "bananas"
 #     static:
 #       - name: "layout"
 #         field:

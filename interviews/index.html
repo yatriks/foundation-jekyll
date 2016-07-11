@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Interviews
-base_url: "../../"
+
 order: 0
 ---
 <div class="container row expanded">
   <div class="row collapse interview-grid">
     {% for i in site.interviews %}
     <div class="large-5 medium-5 columns interview-container">
-      <a class="large-5 small-7 medium-7 large-offset-0 medium-offset-0 columns interview" href="{{ i.url }}">
+      <a class="large-5 small-7 medium-7 large-offset-0 medium-offset-0 columns interview" href="{{ i.url | prepend:site.baseurl }}">
         <p>{{ i.name }}</p>
       </a>
       <div class="large-7 medium-5 columns description">
