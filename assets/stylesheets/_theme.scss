@@ -73,6 +73,18 @@ p.tag, span.tag {
       font-size: 0.75rem;
     }
   }
+  &.filter {
+    &:hover {
+      background: lighten($primary-color, 23.5%);
+      cursor: pointer;
+    }
+   &:active {
+     background: lighten($primary-color, 20.5%);
+   }
+    &.selected {
+      background: lighten($primary-color, 22.5%);
+    }
+  }
 }
 
 ul.menu {
@@ -132,12 +144,19 @@ ul.menu {
   .interview-text {
     p {
       @extend .small-12;
-      @extend .medium-10;
+      @extend .medium-7;
       @extend .large-6;
       @extend .large-offset-1;
       @extend .columns;
+      position: relative;
       & img {
         display: none;
+      }
+    }
+    img {
+      margin-bottom: $global-padding;
+      @include breakpoint(small only) {
+        float: none;
       }
     }
   }
