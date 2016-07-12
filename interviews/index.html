@@ -1,13 +1,31 @@
 ---
 layout: default
 title: Interviews
-
 order: 0
 ---
 <div class="container row expanded">
+  <!-- tag filters! -->
+  {% assign interview_topics = "" | split:"|"  %}
+  {% for interview in site.interviews %}
+    {% for topic in interview.topics | capitalize | strip %}
+      {% assign interview_topics = interview_topics | push: topic %}
+    {% endfor %}
+  {% endfor %}
+  {% assign interview_topics = interview_topics | uniq | sort %}
   <div class="row collapse interview-grid">
-    {% for i in site.interviews %}
-    <div class="large-5 medium-5 columns interview-container">
+    <div class="large-10">
+    <input type="text" id="filter" placeholder="type to filter" value="" />
+    <br />
+    {% for topic in interview_topics %}
+      <span class="tag filter" data-filter-tag="{{ topic | downcase | replace: ' ', '-' }}">{{ topic }}</span>
+    {% endfor %}
+    </div>
+    <br />
+    <br />
+    <br />
+    {% assign interviews = site.interviews | sort: 'name' %}
+    {% for i in interviews %}
+    <div class="large-5 medium-5 columns interview-container" data-filter-tags="{{ i.topics | join:',' | downcase | replace: ' ', '-' }}">
       <a class="large-5 small-7 medium-7 large-offset-0 medium-offset-0 columns interview" href="{{ i.url | prepend:site.baseurl }}">
         <p>{{ i.name }}</p>
       </a>
