@@ -14,7 +14,7 @@ order: 0
   {% assign interview_topics = interview_topics | uniq | sort %}
   <div class="row collapse interview-grid">
     <div class="large-10">
-    <input type="text" id="filter" placeholder="type to filter" value="" />
+    <input class="hide-for-small-only" type="text" id="filter" placeholder="Search by Interviewee Name" value="" />
     <br />
     {% for topic in interview_topics %}
       <span class="tag filter" data-filter-tag="{{ topic | downcase | replace: ' ', '-' }}">{{ topic }}</span>

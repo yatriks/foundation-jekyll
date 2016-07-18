@@ -286,7 +286,7 @@ ul.menu {
         font-size: 1rem;
         position: relative;
         margin-bottom: 3rem;
-        margin-right: -1rem;
+        margin-right: 0.5rem;
         padding: 0 !important;
         // sets 'height' equal to width
         &:before{
@@ -303,7 +303,7 @@ ul.menu {
           text-align: center;
         }
         @include breakpoint(small only) {
-          margin-left: 20%;
+          margin-left: 33%;
           margin-bottom: -3rem;
         }
       }

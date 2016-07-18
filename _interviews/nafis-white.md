@@ -1,6 +1,6 @@
 ---
 layout: interview
-name: "Nafis"
+name: "Nafis White"
 occupation: "Artist"
 location: "London, England"
 punchquote: "I’m an artist, from a Black experience. So some of my work will be unapologetically Black. Oh well."
@@ -18,14 +18,15 @@ topics:
 
 I’m a fine artist, graduated from Rhode Island School of Design just this May [2015], and my major was sculpture with a concentration in art history. I applied for and was admitted to Goldsmiths University of London, which is where I am right now. I’m in their Master of Fine Arts for two years.
 
-I’m an art person, but an activist, so an artivist.You know, I’ve always been in the scene, and I attribute that to my parents who were both very active, and other family members who were active in a number of ways. So I just follow them in that regard. I’ve been a part of protests and actions...I led a sit-in when I was in high school, in the South...I’ve done things out here, like Black Lives Matter protests, so it spanned. It spanned. I know injustice, and I’m not havin’ it.
+I’m an art person, but an activist, so an artivist.You know, I’ve always been in the scene, and I attribute that to my parents who were both very active, and other family members who were active in a number of ways. So I just follow them in that regard. I’ve been a part of protests and actions...I led a sit-in when I was in high school, in the South...I’ve done things out here, like Black Lives Matter protests, so it spanned. It spanned. I know injustice, and I’m not havin’ it.<img src="http://digital-photography-school.com/wp-content/uploads/flickr/5661878892_15fba42846_o.jpg" />
+<span class="caption">A weapon that is visible to law enforcement but to no one else, resulting in the death or near death of the subject.</span>
 
 I also have two brothers that have been incarcerated, one just got out of prison after many many years, and the other has been in and out since he was a juvenile, so. I have opinions about all that.
 
 **You said that you were involved in activism in high school — what kind of activism have you been involved in generally?**
 
 In high school I lived in North Carolina, and it was pretty segregated still. You had Black schools and white schools. We had officers at our school that would treat people particularly...I happened to come back from a field trip, and witnessed these young Black teens outside of our school who had their pants down, and were handcuffed. And the cops had just left them there, for everyone to see, like a spectacle. That really angered me, and that’s where that kind of activism started for me — seeing the disparities.
-
+<img src="http://static1.squarespace.com/static/51abb0b6e4b04de64ca3e089/51e9c2a4e4b0ca0d358cc9ea/56235f4be4b0d2325426986d/1445158813652/?format=1000w" />
 Also as a young person, my dad told me about a situation in third grade where I was excluded...basically the teacher in third grade said you’re a person of color, you’re this child who doesn’t have a lot of opportunity — and you’re not really smart. And she used her power to put me in all of these lowest level reading and math groups, and I ended up testing out of all of them. Thank God for my parents — they asked “why don’t you have homework?” and I was like, “I just don’t get homework.” And they were like, “hold up.” So they tested me into Gifted, out of all of those classes. And that just sat with me.
 
 Click forward and what can I say — I’ve been searched and harassed by police in San Francisco, I’ve been with my father and pulled over in a vehicle where he “fit the description” of another person. And I fear that if I wasn’t with him that something might’ve happened to him, you know?

@@ -28,7 +28,7 @@ jQuery(document).ready(function($) {
       $(this).css("margin-top", randomIntFromInterval(-20, 0) + "px");
       $(this).parent().css("margin-left", randomIntFromInterval(-20, 20) + "px");
     } else if ($(window).width() <= "640") {
-      $(this).parent().css("margin-left", randomIntFromInterval(-20, 20) + "px");
+      $(this).parent().css("margin-left", randomIntFromInterval(-20, 20)+70 + "px");
       $(this).parent(":not(:first-child)").css("margin-top", randomIntFromInterval(-50, -20) + "px");
     }
   });
@@ -44,8 +44,6 @@ jQuery(document).ready(function($) {
 
   // Type to filter
   $('#filter').keyup(function() {
-
-    console.log("keyup!");
 
     var filter = this.value.toLowerCase(); // no need to call jQuery here
 
@@ -71,11 +69,9 @@ jQuery(document).ready(function($) {
     var slug = $(this).attr("data-filter-tag");
     toggleArrayItem(selected, slug);
     $(this).toggleClass("selected");
-    console.log(selected);
     $('.interview-container').each(function() {
       this_tags = $(this).attr("data-filter-tags").split(",");
       var found = findOne(this_tags, selected);
-      console.log($(this).children(".interview").text().trim()+": "+found);
       if (found === true) {
         $(this).show();
       } else {

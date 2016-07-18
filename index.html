@@ -10,13 +10,21 @@ title: Wade in the Water
   </div>
   <br />
   <div class="row">
-    <div class="small-12 columns"><p class="display2">Featured Interviews</p></div>
+    <div class="small-12 columns"><p class="display2">Featured Interview</p></div>
     {% for i in site.interviews %}
-    {% if forloop.index == 3 or forloop.index == 4 or forloop.index == 5 or forloop.index == 6 %}
+    {% if forloop.index == 3  %}
     <div class="interview-feature">
-      <a class="small-7 medium-3 large-2 columns interview end" href="{{ site.baseurl }}{{ i.url }}">
+      <a class="small-4 medium-3 large-2 columns interview" href="{{ site.baseurl }}{{ i.url }}">
         <p>{{ i.name }}</p>
       </a>
+      <div class="medium-7 large-5 columns end">
+        {% if i.occupation %}<span class="tag icon"><i class="material-icons">work</i>&nbsp;{{ i.occupation }}</span>{% endif %}
+        {% if i.location %}<span class="tag icon"><i class="material-icons">location_on</i> {{ i.location }}</span><br />{% endif %}
+        {% for tag in i.topics %}
+            <span class="tag">{{ tag }}</span>
+        {% endfor %}
+        <p> {{ i.punchquote }}</p>
+      </div>
     </div>
     {% endif %}
     {% endfor %}
