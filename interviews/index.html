@@ -13,12 +13,12 @@ order: 0
   {% endfor %}
   {% assign interview_topics = interview_topics | uniq | sort %}
   <div class="row collapse interview-grid">
-    <div class="large-10">
-    <input class="hide-for-small-only" type="text" id="filter" placeholder="Search by Interviewee Name" value="" />
-    <br />
+    <div class="large-10 hide-for-small-only">
+    <i class="material-icons">search</i>  <input class="interviewee-search" type="text" id="filter" placeholder="Search by Interviewee Name" value="" />
+    <!-- <br />
     {% for topic in interview_topics %}
       <span class="tag filter" data-filter-tag="{{ topic | downcase | replace: ' ', '-' }}">{{ topic }}</span>
-    {% endfor %}
+    {% endfor %} -->
     </div>
     <br />
     <br />

@@ -8,7 +8,7 @@ $(document).foundation();
 
 jQuery(document).ready(function($) {
 
-  $.each($('.interview-text > p'), function(i, val) {
+  $.each($('.interview-text > p').not('.interview-text > blockquote > p'), function(i, val) {
     $(this).attr("data-para-index", i);
     if (!$(this).has("img").length) {
       $(this).addClass("end");

@@ -1,0 +1,16 @@
+{% include header.html fixed=" fixed" %}
+
+<div class="container row expanded">
+    <div class="row news-feature">
+      <div class="medium-10 small-12 columns end">
+        <p><a href="{{ site.baseurl }}/news">&larr; Back</a></p>
+        <p class="display2">{{ page.title }}</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="medium-8 small-12 columns end">
+        {{ content }}
+      </div>
+    </div>
+</div>
+{% include footer.html %}

@@ -37,6 +37,13 @@ It’s always been a very hybrid thing for me: working in this very Black enviro
 
 Not totally! My parents got divorced when I was really young, and I was going back and forth. My dad relatively quickly moved to a very white suburb. My mom eventually moved to the same white suburb, which is also where I went to school, but not until I was a freshman in high school. And before that, we lived with my grandmother in Eau Cliffe, which is basically the hood.
 
+> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+>
+> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+> id sem consectetuer libero luctus adipiscing.
+
 **What was your experience of anti-blackness up until recently?**
 
 Well, the experience of it was a lot, but my consciousness of it was very low. My awareness was very small. I went to this super super super white school, and more or less assimilated successfully. I got called an “oreo” a lot, by white people. At the time I was like “haha that’s so funny! I just hang out with so many white people, I’m so white. This is so cute.” But actually, something interesting is that, so my poor incredibly white high school tried to have a diversity committee. And my mom was on the committee. And they published a report on diversity, and one of the things in the report was like “look at how racist you are, ‘cause all these white kids called a Black student an ‘oreo.’” And I was like “oh my god, are they talking about me?” Because I wasn’t even conscious!

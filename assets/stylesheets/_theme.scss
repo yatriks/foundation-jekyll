@@ -2,14 +2,19 @@
 // Foundation-Jekyll - Custom Theme Styles
 //
 @import "grid/grid";
-
 body {
   font-family: "Helvetica", sans-serif;
+  font-size: 1.1rem;
   @include breakpoint(small only) {
     overflow-x: hidden;
   }
 }
-
+p.no-margin {
+  margin-bottom: 0;
+  &.display4 {
+    margin-bottom: 7px;
+  }
+}
 .button.warning:hover {
   background-color: darken($warning-color, 2%);
   &.hollow {
@@ -27,7 +32,6 @@ body {
   font-weight: bold;
   line-height: 1.4;
 }
-
 .display3 {
   font-size: 2.6rem;
   font-weight: 200;
@@ -50,18 +54,17 @@ body {
     font-size: 1.2rem;
   }
 }
-
 h1 {
   @extend .display3;
   &.with-tags {
     margin-bottom: 1.2rem;
   }
 }
-
-p.tag, span.tag {
+p.tag,
+span.tag {
   font-size: 0.8rem;
   display: inline-block;
-  padding: 0.15rem 0.65rem 0.1rem 0.65rem;
+  padding: 0.15rem 0.65rem 0.1rem;
   border-radius: 3px;
   margin-bottom: 0.5rem;
   background: lighten($primary-color, 25.5%);
@@ -78,15 +81,14 @@ p.tag, span.tag {
       background: lighten($primary-color, 23.5%);
       cursor: pointer;
     }
-   &:active {
-     background: lighten($primary-color, 20.5%);
-   }
+    &:active {
+      background: lighten($primary-color, 20.5%);
+    }
     &.selected {
       background: lighten($primary-color, 22.5%);
     }
   }
 }
-
 ul.menu {
   position: relative;
   padding-top: 2rem;
@@ -104,16 +106,28 @@ ul.menu {
         &.print {
           color: $warning-color;
         }
+        &.news {
+          color: $success-color;
+        }
+        &.about {
+          color: $alert-color;
+        }
       }
       &:hover {
         color: rgba(0,0,0,0.28);
         &.active {
           color: rgba(0,0,0,0.5);
-          &.interviews{
+          &.interviews {
             color: darken($primary-color,5%);
           }
           &.print {
             color: darken($warning-color,3%);
+          }
+          &.news {
+            color: darken($success-color,3%);
+          }
+          &.about {
+            color: darken($alert-color,3%);
           }
         }
       }
@@ -139,13 +153,28 @@ ul.menu {
 .container {
   padding: 3rem 2rem;
   @include breakpoint(small only) {
-    padding: 2rem 1rem ;
+    padding: 2rem 1rem;
   }
   .interview-text {
+    blockquote {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      p {
+        font-size: 2rem;
+        color: #c0aedc;
+        line-height: 1.2;
+        font-weight: 100;
+        // font-family: "Georgia", serif;
+        text-align: right;
+        &:last-child {
+          float: none;
+        }
+      }
+    }
     p {
       @extend .small-12;
-      @extend .medium-7;
-      @extend .large-6;
+      @extend .medium-9;
+      @extend .large-7;
       @extend .large-offset-1;
       @extend .columns;
       position: relative;
@@ -166,6 +195,11 @@ ul.menu {
   & .interview-grid {
     margin-bottom: 3rem;
     // Circle Block
+    & .material-icons {
+      color: darken($light-gray, 10%);
+      vertical-align: middle;
+      display: inline-block;
+    }
     & .interview-container {
       opacity: 1;
       box-sizing: border-box;
@@ -189,10 +223,11 @@ ul.menu {
         margin-bottom: 1rem;
         padding: 0 !important;
         // sets 'height' equal to width
-        &:before{
-            content: "";
-            display: block;
-            padding-top: 100%;  /* ratio of 1:1*/
+        &:before {
+          content: "";
+          display: block;
+          padding-top: 100%;
+          /* ratio of 1:1*/
         }
         &:hover {
           cursor: pointer;
@@ -206,7 +241,6 @@ ul.menu {
           text-align: center;
         }
       }
-
       & .description {
         overflow: visible;
         height: 12.5rem;
@@ -267,7 +301,6 @@ ul.menu {
       }
     }
   }
-
   & .interview-feature {
     position: relative;
     transition: 0.2s opacity;
@@ -279,92 +312,105 @@ ul.menu {
       }
     }
     & .interview {
-        color: $primary-color;
-        border: 1px solid $primary-color;
-        box-sizing: border-box;
-        border-radius: 800px;
-        font-size: 1rem;
-        position: relative;
-        margin-bottom: 3rem;
-        margin-right: 0.5rem;
-        padding: 0 !important;
-        // sets 'height' equal to width
-        &:before{
-            content: "";
-            display: block;
-            padding-top: 100%;  /* ratio of 1:1*/
-        }
-        & p {
-          padding: 0;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          text-align: center;
-        }
-        @include breakpoint(small only) {
-          margin-left: 33%;
-          margin-bottom: -3rem;
-        }
-      }
-      &:last-child {
-        @include breakpoint(small only) {
-          & .interview { margin-bottom: 3rem; }
-        }
-      }
-  }
-
-  & .issue-feature {
+      color: $primary-color;
+      border: 1px solid $primary-color;
+      box-sizing: border-box;
+      border-radius: 800px;
+      font-size: 1rem;
       position: relative;
-      & .issue {
-          color: $warning-color;
-          border: 1px solid $warning-color;
-          box-sizing: border-box;
-          border-radius: 800px;
-          font-size: 1rem;
-          position: relative;
+      margin-bottom: 3rem;
+      margin-right: 0.5rem;
+      padding: 0 !important;
+      // sets 'height' equal to width
+      &:before {
+        content: "";
+        display: block;
+        padding-top: 100%;
+        /* ratio of 1:1*/
+      }
+      & p {
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      @include breakpoint(small only) {
+        margin-left: 33%;
+        margin-bottom: -3rem;
+      }
+    }
+    &:last-child {
+      @include breakpoint(small only) {
+        & .interview {
           margin-bottom: 3rem;
-          transition: 0.2s opacity;
-          margin-right: -2.5rem;
-          padding: 0 !important;
-          &.unfocused {
-            opacity: 0.4;
-          }
-          // sets 'height' equal to width
-          &:before{
-              content: "";
-              display: block;
-              padding-top: 100%;  /* ratio of 1:1*/
-          }
-          &:hover {
-            cursor: pointer;
-            color: $warning-color;
-            border: 1px solid $warning-color;
-          }
-          & p {
-            padding: 0;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-          }
-          @include breakpoint(small only) {
-            margin-left: 9rem;
-            margin-bottom: -3rem;
-          }
         }
-        &:last-child {
-          @include breakpoint(small only) {
-            & .issue {
-              margin-bottom: 3rem;
-              margin-right: 0rem;
-              margin-left: -4rem;
-            }
-          }
-        }
+      }
+    }
   }
-
+  & .issue-feature {
+    position: relative;
+    & .issue {
+      color: $warning-color;
+      border: 1px solid $warning-color;
+      box-sizing: border-box;
+      border-radius: 800px;
+      font-size: 1rem;
+      position: relative;
+      margin-bottom: 3rem;
+      transition: 0.2s opacity;
+      margin-right: -2.5rem;
+      padding: 0 !important;
+      &.unfocused {
+        opacity: 0.4;
+      }
+      // sets 'height' equal to width
+      &:before {
+        content: "";
+        display: block;
+        padding-top: 100%;
+        /* ratio of 1:1*/
+      }
+      &:hover {
+        cursor: pointer;
+        color: $warning-color;
+        border: 1px solid $warning-color;
+      }
+      & p {
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      @include breakpoint(small only) {
+        margin-left: 9rem;
+        margin-bottom: -3rem;
+      }
+    }
+    &:last-child {
+      @include breakpoint(small only) {
+        & .issue {
+          margin-bottom: 3rem;
+          margin-right: 0;
+          margin-left: -4rem;
+        }
+      }
+    }
+  }
+  & .news-feature {
+    p {
+      &.gray {
+        color: $dark-gray;
+        margin-bottom: 0;
+      }
+    }
+    a {
+      color: $success-color;
+    }
+  }
   & .issue-container {
     margin-bottom: 4rem;
     & .issue {
@@ -376,10 +422,11 @@ ul.menu {
       position: relative;
       padding: 0 !important;
       // sets 'height' equal to width
-      &:before{
-          content: "";
-          display: block;
-          padding-top: 100%;  /* ratio of 1:1*/
+      &:before {
+        content: "";
+        display: block;
+        padding-top: 100%;
+        /* ratio of 1:1*/
       }
       & p {
         padding: 0;
@@ -402,11 +449,18 @@ ul.menu {
       }
     }
     img.cover {
-      padding: 5px;
-      border: 1px solid #D7D7D7;
+      // padding: 5px;
+      // border: 1px solid #D7D7D7;
     }
     &:last-child {
-      margin-bottom: 0rem;
+      margin-bottom: 0;
     }
+  }
+  .interviewee-search {
+    display: inline-block;
+    width: 80%;
+    border: 0;
+    box-shadow: none;
+    border-bottom: 1px solid darken($light-gray, 5%);
   }
 }
