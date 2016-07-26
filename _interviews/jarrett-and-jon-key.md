@@ -13,7 +13,7 @@ topics:
 - "Art"
 - "Allyship"
 - "Empowerment"
-doubleton-title: "Jon and Jarrett Key"
+doubleton-title: "Jarrett and Jon Key"
 ---
 
 **Can you each tell me a little bit about yourself?**
