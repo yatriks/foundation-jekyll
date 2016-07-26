@@ -16,19 +16,23 @@
         {% endfor %}
       </div>
     </div>
-    <div class="row">
-      <div class="interview-text small-12 medium-8 large-7 large-offset-1 columns">
+    <div class="row" data-equalizer>
+      <div class="interview-text small-12 medium-8 large-7 large-offset-1 columns" data-equalizer-watch>
         {{ content }}
       </div>
-      <div class="gallery hide-for-small-only medium-4 large-4 columns end">
+      <div class="gallery hide-for-small-only medium-4 large-4 columns end" data-equalizer-watch>
         {% for gallery in site.data.galleries %}{% if gallery[0] == page.slug %}
           {% for item in gallery[1] %}
-            {% if item.filename %}
-            <a href="{{ site.baseurl }}/assets/images/{{ gallery[0] }}/{{ item.filename }}" data-lity>
-              <img src="{{ site.baseurl }}/assets/images/{{ gallery[0] }}/{{ item.filename }}" />
-            </a><br />
-            {% endif %}
-            {% if item.caption %}{{item.caption | markdownify }}<br />{% endif %}
+            <div class="small-12 columns">
+              <!-- Image -->
+              {% if item.filename %}
+              <a href="{{ site.baseurl }}/assets/images/{{ gallery[0] }}/{{ item.filename }}" data-lity>
+                <img src="{{ site.baseurl }}/assets/images/{{ gallery[0] }}/{{ item.filename }}" />
+              </a><br />
+              <!-- Caption -->
+              {% endif %}
+              {% if item.caption %}<div class="caption">{{item.caption | markdownify }}</div>{% endif %}
+            </div>
           {% endfor %}
         {% endif %}{% endfor %}
       </div>

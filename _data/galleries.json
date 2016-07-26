@@ -1,8 +1,9 @@
 {
   "nafis-white": [
     {
-      "caption": "**Phantom Negro Weapons**
-      Defined as &ldquo;Weapons&rdquo; that are generally in the possession of Black and Brown people, which are initially perceived of as guns, knives, pipes, box cutters, switchblades, etc. by policing forces. The possession of such &ldquo;weapons&rdquo; often results in the fatality of the suspect, usually by police. Upon further investigation, these so called lethal weapons in possession of the victim somehow disappear and the &ldquo;weapon&rdquo; that remains is a spoon, watch, change, hoodie, waistband, candy, nothing and so on."
+      "caption": "**Phantom Negro Weapons**<br />
+      Defined as &ldquo;Weapons&rdquo; that are generally in the possession of Black and Brown people, which are initially perceived of as guns, knives, pipes, box cutters, switchblades, etc. by policing forces. The possession of such &ldquo;weapons&rdquo; often results in the fatality of the suspect, usually by police. Upon further investigation, these so called lethal weapons in possession of the victim somehow disappear and the &ldquo;weapon&rdquo; that remains is a spoon, watch, change, hoodie, waistband, candy, nothing and so on.<br />
+      (scroll for series)"
     },
     {
       "filename": "phantom-negro-weapons-michael-brown.jpg",
@@ -23,7 +24,10 @@
     {
       "filename": "phantom-negro-weapons-trayvon-martin.jpg",
       "caption": "Trayvon Martin, Skittles"
-    }
+    },
+    {
+      "caption": "To see the full series, visit [Nafis's website](#)"
+    },
   ],
   "trevor-davis": [
     {
@@ -37,6 +41,16 @@
     {
       "filename": "strength-and-hurt-2015.jpg",
       "caption": "Strength and Hurt, 2015"
+    }
+  ],
+  "marvin-toure": [
+    {
+      "filename": "year-one-vinyl-print.jpg",
+      "caption": "Year One"
+    },
+    {
+      "filename": "year-two-vinyl-print.jpg",
+      "caption": "Year Two"
     }
   ]
 }

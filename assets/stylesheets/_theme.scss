@@ -73,6 +73,7 @@ span.tag {
   &.icon {
     padding: 0.15rem 0.65rem 0.1rem 0.4rem;
     & .material-icons {
+      color: #8178be;
       font-size: 0.75rem;
     }
   }
@@ -155,13 +156,36 @@ ul.menu {
   @include breakpoint(small only) {
     padding: 2rem 1rem;
   }
+  .caption {
+    text-align: right;
+    color: $dark-gray;
+    font-style:italic;
+    font-size: 0.9rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+  }
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    a {
+      transition: opacity 0.2s;
+      &:hover {
+        opacity: 0.85;
+      }
+    }
+  }
   .interview-text {
+    a {
+      color: $success-color;
+    }
     blockquote {
       margin-top: 50px;
-      margin-bottom: 50px;
+      margin-bottom: 70px;
+      border: 0;
       p {
         font-size: 2rem;
-        color: #c0aedc;
+        color: #9185e2;
         line-height: 1.2;
         font-weight: 100;
         // font-family: "Georgia", serif;
