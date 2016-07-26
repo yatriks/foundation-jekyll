@@ -3,7 +3,8 @@
 <div class="container row expanded">
     <div class="row">
       <div class="small-10 columns end">
-        <h1 class="with-tags">{{ page.name }}</h1>
+        {% if page.doubleton-title %}<h1 class="with-tags">{{ page.doubleton-title }}</h1>
+        {% else %}<h1 class="with-tags">{{ page.name }}</h1>{% endif %}
       </div>
     </div>
     <div class="row">
