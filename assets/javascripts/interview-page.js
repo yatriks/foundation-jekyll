@@ -24,6 +24,23 @@ jQuery(document).ready(function($) {
   //     // $(this).after('<div class="hide-for-small medium-2 large-5 columns" style="border:1px solid red;">hi</div>');
   //   }
   // });
+
+    $(window).on('load resize', function () {
+      var windowWidth = $(window).width();
+      if (windowWidth < 640 && $(".gallery > div > a > img")) {
+        var images = $(".gallery > div").toArray();
+        var paragraphs = $(".interview-text > p").toArray();
+        var pcount = paragraphs.length; // Paragraph Count
+        var icount = images.length; // Image Count
+        var spacing = Math.floor((pcount-5) / icount);
+        for (i = 1; i < icount+1; i++) {
+          $(images[i]).detach();
+          $(paragraphs[spacing*i]).after(images[i]);
+          $(".gallery").detach();
+        }
+      }
+    });
+
   //
   // $(window).resize(function() {
   //   var windowWidth = $(window).width();
