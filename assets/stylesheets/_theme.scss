@@ -171,23 +171,23 @@ ul.menu {
         }
       }
     }
-    p {
-      @extend .small-12;
-      @extend .medium-9;
-      @extend .large-7;
-      @extend .large-offset-1;
-      @extend .columns;
-      position: relative;
-      & img {
-        display: none;
-      }
-    }
-    img {
-      margin-bottom: $global-padding;
-      @include breakpoint(small only) {
-        float: none;
-      }
-    }
+    // p {
+    //   @extend .small-12;
+    //   @extend .medium-9;
+    //   @extend .large-7;
+    //   @extend .large-offset-1;
+    //   @extend .columns;
+    //   position: relative;
+    //   & img {
+    //     display: none;
+    //   }
+    // }
+    // img {
+    //   margin-bottom: $global-padding;
+    //   @include breakpoint(small only) {
+    //     float: none;
+    //   }
+    // }
   }
   .tags {
     margin-bottom: 2rem;
