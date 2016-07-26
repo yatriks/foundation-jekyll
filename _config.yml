@@ -23,7 +23,7 @@ source:             ./
 destination:        ./static
 
 port:               9002
-baseurl:            /foundation-jekyll
+baseurl:            /wade-in-the-water
 url:                http://yatriks.github.io
 
 # exclude this stuff when building the static site
@@ -40,7 +40,7 @@ exclude:            [
 site_name:          "Wade in the Water"
 site_description :  "An Oral History of the Movement"
 site_copyright:     "Copyright (c) 2016 Maya Meredith"
-site_url:           "http://yatriks.github.io/foundation-jekyll/"
+site_url:           "http://yatriks.github.io/wade-in-the-water/"
 site_email:         "yatriksolanki@gmail.com"
 site_phone:
 

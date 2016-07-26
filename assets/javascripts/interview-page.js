@@ -1,5 +1,5 @@
 //
-// Foundation-Jekyll - Javascripts
+// wade-in-the-water - Javascripts
 // Author: @aaronkwhite
 //
 
