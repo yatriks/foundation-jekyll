@@ -33,10 +33,9 @@ jQuery(document).ready(function($) {
         var pcount = paragraphs.length; // Paragraph Count
         var icount = images.length; // Image Count
         var spacing = Math.floor((pcount-5) / icount);
-        for (i = 1; i < icount+1; i++) {
+        for (i = 0; i < icount+1; i++) {
           $(images[i]).detach();
-          $(paragraphs[spacing*i]).after(images[i]);
-          $(".gallery").detach();
+          $(paragraphs[spacing*(i+1)]).after(images[i]);
         }
       }
     });

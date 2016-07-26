@@ -16,7 +16,7 @@ topics:
 
 **Could you tell me a little bit about yourself?**
 
-I’m a senior studying illustration with a concentration in gender, race, and sexuality at the Rhode Island School of Design. I was born in Canada, I grew up in New York. My house and where my things are is Delaware, and that’s where I spent the majority of my high school years there. I identify as a visual activist, and that identity started to develop in my sophomore year of college, and I solidified it in my junior year. College is where I found my voice, and the way I wanted to talk about things, and I found out how to do it--through art, through visual representation. I went from being fine artist to, actually, a businesswoman. I’m now an illustrator and a toy designer, and I launched a company called Healthy Roots, that creates dolls and story books that teach natural hair care to young girls of color, and we raised $50,000 through Kickstarter to do that.
+I’m a senior studying illustration with a concentration in gender, race, and sexuality at the Rhode Island School of Design. I was born in Canada, I grew up in New York. My house and where my things are is Delaware, and I spent the majority of my high school years there. I identify as a visual activist, and that identity started to develop in my sophomore year of college, and I solidified it in my junior year. College is where I found my voice, and the way I wanted to talk about things, and I found out how to do it—through art, through visual representation. I went from being fine artist to, actually, a businesswoman. I’m now an illustrator and a toy designer, and I launched a company called [Healthy Roots](http://healthyrootsdolls.com/), that creates dolls and story books that teach natural hair care to young girls of color, and we raised $50,000 through Kickstarter to do that.
 
 **That’s so cool, that you raised so much money.**
 
@@ -26,17 +26,21 @@ Thank you. So yeah, I’m an artist in the business world and I’m using it as 
 
 Looking back at my youth now, my interaction with race was is unsettling. I realize now that I purposefully went out of my way to avoid anything that had to do with Blackness. I didn’t want to look, sound, or be perceived as anything my peers would consider as Black. That was for a lot of reasons. Partially because of my culture as a Haitian-American and the way that I have seen Black immigrants talk about Black americans. As well as the way that Americans in general talked about and treated Black people. I saw how my friends and peers would call other Black girls and boys derogatory names because of their names, the way the dressed and talked. They saw them as inferior, so I felt that if I didn’t “assimilate” they would view me the same way. The sad thing is, it didn’t matter what I did because they would still see me as the Black girl who, despite being Black, was smart or talented. No amount of straightening my hair or “talking white” would save me from them viewing me as Other.
 
+>I didn’t want to look, sound, or be perceived as anything my peers would consider as Black.
+
 I came to art school, and I started seeing all these Black girls with natural hair. And I was like, “Hm, why do I straighten my hair?” I started questioning my own identity and why I did things, and through my conversations with other students of color, I developed the language to define my own experiences. Like, being the only Black person in the upper-level classes. Getting a high SAT score and people being surprised. Not being recognized for your academic achievements, but your white peers get recognized for every single thing they do.
 
-So activism was me going natural. And it was like Samson. His hair is his power? That’s what happened to me. I started growing my hair natural. And I began to talk about issues within the African diaspora, like colorism and internalized racism.
+So activism was me going natural. And it was like Samson. His hair is his power? That’s what happened to me. I started growing my hair natural. And I began to talk about issues within the African diaspora, like [colorism](https://en.wikipedia.org/wiki/Discrimination_based_on_skin_color) and internalized racism.
 
 I spent my sophomore year experimenting with how I created work, talking about race. I did a bunch of pieces about hair, I did some drawings that got featured on a blog or two about women’s themes with nature and natural hair. And then my junior year, that’s when the whole Black Lives Matter movement happened. And I had already become really active with leadership on campus, and I was very frustrated with the fact that RISD is supposed to be this place where everyone is socially aware, like they understand things, but then tell me why I’m having conversations with people about Trayvon Martin and they’re like, “Well you know, Black people, if you just pulled your pants up, maybe you wouldn’t get killed or something!”
 
 So then I was like, “Nope, RISD is fucked up.” And so, I came back to school, and before school started I had been elected the president of the Black student group. I was like, “we are going hard.” Because everything I do has to come correct. So I opened the school year with a silent Black Lives Matter protest. And that set the tone for the entire school year. I helped organize a lot of programs on campus. We’ve had dialogues, we did work with the Black Student Union at Brown University, bringing in speakers to talk about these issues.
 
-I went to the Blacktivism conference at Harvard, and was really active on social media. That’s where my activism came in--having these dialogues with people, helping them understand where they’re going wrong with their understanding of race in America.
+>Just having to talk about racism is distracting me from my own progress and growth as a human being. I don’t have time. I don’t have to teach you anything. I don’t owe you shit. I’m gonna work on me, and I’m moving forward.
 
-I got a little bit of race fatigue, a little burn out, so I don’t do that as much anymore, because I realized I have to take care of myself--and it’s funny how racism works--just having to talk about it is distracting me from my own progress and growth as a human being. I don’t have time. I don’t have to teach you anything. I don’t owe you shit. I’m gonna work on me, and I’m moving forward.
+I went to the Blacktivism conference at Harvard, and was really active on social media. That’s where my activism came in—having these dialogues with people, helping them understand where they’re going wrong with their understanding of race in America.
+
+I got a little bit of race fatigue, a little burn out, so I don’t do that as much anymore, because I realized I have to take care of myself—and it’s funny how racism works—just having to talk about it is distracting me from my own progress and growth as a human being. I don’t have time. I don’t have to teach you anything. I don’t owe you shit. I’m gonna work on me, and I’m moving forward.
 
 **What do you see as the goal of the movement? Because I think a lot of people have a different idea of what they’re trying to accomplish.**
 
@@ -53,6 +57,8 @@ When I see images like that, all I can think is  “What is your point”? Becau
 He was wearing a suit, and you still killed him. So I don’t care if I’m wearing some baggy-ass jeans to my fucking knees. I don’t care if I have dreadlocks to my ass, I don’t care if I have war paint on my face. It doesn’t matter. Because guess what? No amount of respectability politics will stop someone from calling me a nigger or disrespecting me or viewing me as less than. It’s not gonna happen, so you can stop with all that.
 
 Look at the Million Man March. Hundreds of thousands of Black people, peacefully gathering, like they asked us to. Y’all didn’t see *any* media coverage. No media coverage. Y’all didn’t see us like, “Look at how peaceful those Black people are. That’s exactly what we want: quiet and respectful, so that maybe we can consider your feelings.” But once CVS burns down—nonstop coverage. “Why are they looting their own communities?”. But nonstop coverage of that fucking CVS. Thousands of Black people peacefully protesting, like you told us to, and guess what we don’t hear? One. Word. So if one more person tells me, “Well, you know what? Maybe you guys should peacefully protest—” We did that! And look what happened.
+
+>No amount of respectability politics will stop someone from calling me a nigger or disrespecting me or viewing me as less than.
 
 I think the difference is that we no longer care about respectability politics because the Civil Rights movement proved that respectability doesn’t matter. They don’t *have* respect for us. You can’t ask for respect when there is none to give. You can’t ask someone to care about your life. They either do or they don’t.
 
@@ -71,6 +77,8 @@ A lot of my work focuses on children because that is who are most highly influen
 **Did you run into issues of racism while building your business?**
 
 We did incredibly well with our accelerator...We raised $50,000 in a month on Kickstarter. We went from a simple art project to an actual business—and we were not selected to be in the top 26 projects in the accelerator by judges who are primarily white men from the business and science/health fields...That’s my problem. People will constantly talk about how there aren’t very many women in business or how than less than 1% of companies that receive VC funding have black founders, but fail to recognize how the lack of diversity among the people who make the decisions in the first place is the root of the problem.
+
+>“You have to fly to get to where others can walk.”
 
 People have used my project as an example, like, “See, Black people? When you just do things for yourself, look how far you can go.” They tell us, if you want diversity, go do it yourself. If you want positive representation, go do it yourself.” We did, and you didn’t let us in. How are people with no money supposed to do something when people with the money won’t help them or see the opportunity because of their own bias or lack of experience with those of different identities than their own?
 
