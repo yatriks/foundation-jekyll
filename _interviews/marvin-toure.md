@@ -3,7 +3,7 @@ layout: interview
 name: "Marvin Touré"
 occupation: "Artist"
 location: "New York, New York"
-punchquote: "I’m an artist, from a Black experience. So some of my work will be unapologetically Black. Oh well."
+punchquote: "White supremacy permeates through almost every facet of our society, and art is no exception."
 bio: "Marvin Touré is an Ivorian American artist born in Takoma Park, Maryland and raised primarily in Atlanta, Georgia. Marvin's parents are both West African immigrants from the Ivory Coast, and he references his African heritage and urban Southern upbringing in his artwork. He holds a B.A. in New Media Arts with a minor in Architecture from Southern Polytechnic State University (now Kennesaw State University Marietta Campus), and he recently completed the MFA Fine Arts program at the School of Visual Arts in New York City."
 interview_date: "02/21/2016"
 issue: "2"
