@@ -1,0 +1,69 @@
+---
+layout: default
+title: Wade in the Water
+---
+<div class="container row expanded">
+  <div class="row">
+    <div class="small-10 columns end">
+      <p class="display2">Wade in the Water is a grassroots oral history of Black lives in the United States. <a style="display: inline-block; color: #ef839a;" href="{{ site.baseurl }}/about">More about us &rarr;</a></p>
+    </div>
+  </div>
+  <br />
+  <div class="row">
+    {% for i in site.interviews %} {% if i.name == "Sam Sainthil" %}
+    <div class="interview-feature">
+      <a class="small-4 medium-3 large-2 columns interview" href="{{ site.baseurl }}{{ i.url }}">
+        <p>{{ i.name }}</p>
+      </a>
+      <div class="medium-7 large-5 columns end">
+        <p class="display4 no-margin">Featured Interview</p>
+        <p>&ldquo;{{ i.punchquote }}&rdquo; <a href="{{ i.url | prepend:site.baseurl }}">Continue reading &rarr;</a></p>
+        {% if i.occupation %}<span class="tag icon"><i class="material-icons">work</i>&nbsp;{{ i.occupation }}</span>{% endif %} {% if i.location %}<span class="tag icon"><i class="material-icons">location_on</i> {{ i.location }}</span>
+        <br />{% endif %}
+        <!-- {% for tag in i.topics %}
+        {% if forloop.index < 4  %}
+            <span class="tag">{{ tag }}</span>
+        {% endif  %}
+        {% endfor %} -->
+      </div>
+    </div>
+    {% endif %} {% endfor %}
+  </div>
+  <div class="row news-feature">
+    <div class="small-12 columns end">
+      <p class="display2">Latest Updates</p>
+    </div>
+    <div class="row small-up-1 medium-up-4 large-up-4 small-12 columns">
+      {% for p in site.posts %}
+      <div class="column">
+        <p class="no-margin"><strong>{{ p.title }}</strong></p>
+        <p class="small gray">posted {{ p.date | date: '%B %d, %Y' }}</p>
+        {{ p.preview-text }}
+        <br /><a href="{{ p.url | prepend:site.baseurl }}">Continue reading &rarr;</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <br />
+  <div class="row">
+    <div class="small-12 columns">
+      <p class="display2">In Print</p>
+    </div>
+    <div class="small-12 columns">
+      <div class="issue-feature">
+        <a class="small-10 medium-6 large-4 columns issue end" href="{{ site.baseurl }}/print/">
+          <p>001. A Year of the Movement for Black Lives</p>
+        </a>
+      </div>
+      <div class="issue-feature">
+        <a class="small-10 medium-6 large-4 columns issue end" href="{{ site.baseurl }}/print/#issue-02">
+          <p>002. The Master's Tools</p>
+        </a>
+      </div>
+    </div>
+
+
+
+  </div>
+
+</div>

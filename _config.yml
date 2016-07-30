@@ -1,0 +1,99 @@
+title:               Wade in the Water
+
+# Versioning
+current_version: 1.5.0
+foundation_version: 6.0.0
+
+author:
+  name:             yatrik
+  email:            yatriksolanki@gmail.com
+  github:           yatriks
+  twitter:          kirtay
+
+# Dependencies
+markdown:           kramdown
+#Syntax Highlighter
+#highlighter:        pygments
+
+# Permalinks
+permalink:          pretty
+
+# Server
+source:             ./
+destination:        ./static
+
+port:               9002
+baseurl:            /wade-in-the-water
+url:                http://yatriks.github.io
+
+# exclude this stuff when building the static site
+exclude:            [
+                      '.gitignore',
+                      'README.md',
+                      'Gemfile',
+                      'Gemfile.lock',
+                    ]
+
+## CUSTOM VARS
+
+#ga_id:             ##-########-###
+site_name:          "Wade in the Water"
+site_description :  "An Oral History of the Movement"
+site_copyright:     "Copyright (c) 2016 Maya Meredith"
+site_url:           "http://yatriks.github.io/wade-in-the-water/"
+site_email:         "yatriksolanki@gmail.com"
+site_phone:
+
+collections:
+  interviews:
+    output: true
+    permalink: /interviews/:title.html
+
+defaults:
+  - scope:
+      path: ""
+      type: interviews
+    values:
+      layout: interview
+      base_url: ""
+
+# Assets
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          assets/stylesheets/
+  style:            :compressed
+
+# Configuration for Prose.io
+# prose:
+#   rooturl: '/'
+# #   siteurl: 'http://prose.github.io/starter/'
+# #   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+#   media: 'assets'
+#   ignore:
+#     - _layouts
+#   metadata:
+#     source/_posts:
+#       - name: "layout"
+#         field:
+#           element: "hidden"
+#           value: "blog"
+#       - name: "topics"
+#         field:
+#           element: "multiselect"
+#           label: "Add Tags"
+#           placeholder: "Choose Tags"
+#           # options:
+#           #   - name: "Apples"
+#           #     value: "apples"
+#           #   - name: "Bananas"
+#           #     value: "bananas"
+#     static:
+#       - name: "layout"
+#         field:
+#           element: "hidden"
+#           value: "page"
+#       - name: "permalink"
+#         field:
+#           element: "text"
+#           label: "Permalink"
+#           value: ""

@@ -1,0 +1,54 @@
+---
+layout: default
+title: Interviews
+order: 0
+---
+<div class="container row expanded">
+  <!-- tag filters! -->
+  {% assign interview_topics = "" | split:"|"  %}
+  {% for interview in site.interviews %}
+    {% for topic in interview.topics | capitalize | strip %}
+      {% assign interview_topics = interview_topics | push: topic %}
+    {% endfor %}
+  {% endfor %}
+  {% assign interview_topics = interview_topics | uniq | sort %}
+  <div class="row collapse interview-grid">
+    <div class="large-10 hide-for-small-only">
+    <i class="material-icons">search</i>  <input class="interviewee-search" type="text" id="filter" placeholder="Search by Interviewee Name" value="" autocomplete="off" />
+    <!-- <br />
+    {% for topic in interview_topics %}
+      <span class="tag filter" data-filter-tag="{{ topic | downcase | replace: ' ', '-' }}">{{ topic }}</span>
+    {% endfor %} -->
+    </div>
+    <br />
+    <br />
+    <br />
+    {% assign interviews = site.interviews | sort: 'name' %}
+    {% for i in interviews %}
+    {% if i.doubleton == "true" %}
+    <div class="large-5 medium-5 columns interview-container" data-filter-tags="{{ i.topics | join:',' | downcase | replace: ' ', '-' }}">
+      <a class="large-5 small-7 medium-7 large-offset-0 medium-offset-0 columns interview" href="{{ i.doubleton-target | prepend:site.baseurl }}">
+        <p>{{ i.name }}</p>
+      </a>
+      <div class="large-7 medium-5 columns description">
+        {% if i.occupation %}<span class="tag icon"><i class="material-icons">work</i>&nbsp;{{ i.occupation }}</span>{% endif %}
+        {% if i.location %}<span class="tag icon"><i class="material-icons">location_on</i>&nbsp;{{ i.location }}</span>{% endif %}
+        <p class="display2">{{ i.punchquote }}</p>
+      </div>
+    </div>
+    {% else %}
+    <div class="large-5 medium-5 columns interview-container" data-filter-tags="{{ i.topics | join:',' | downcase | replace: ' ', '-' }}">
+      <a class="large-5 small-7 medium-7 large-offset-0 medium-offset-0 columns interview" href="{{ i.url | prepend:site.baseurl }}">
+        <p>{{ i.name }}</p>
+      </a>
+      <div class="large-7 medium-5 columns description">
+        {% if i.occupation %}<span class="tag icon"><i class="material-icons">work</i>&nbsp;{{ i.occupation }}</span>{% endif %}
+        {% if i.location %}<span class="tag icon"><i class="material-icons">location_on</i>&nbsp;{{ i.location }}</span>{% endif %}
+        <p class="display2">{{ i.punchquote }}</p>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </ul>
+  </div>
+</div>
