@@ -169,7 +169,7 @@ I feel like a lot of my work is trying to engage a sense of hope.
 
 *Jon:* Because not only are we still continuing to fight for our innate rights, but I still think that we can’t just hurt ourselves in the process. We can’t continue to cry and mourn and hate ourselves for this. There has to be some point that we take care of each other. Yes, people’s lives are being taken. We have to take care  of those people, they have families. They lost someone, yes, they’re mourning, but we have to help them heal. We can’t just be there for when they are mourning.
 
->We can’t continue to cry and mourn and hate ourselves for this. There has to be some point that we take care of each other.f
+>We can’t continue to cry and mourn and hate ourselves for this. There has to be some point that we take care of each other.
 
 *Jarrett:* What does this model look like? How do we want our children to talk about race in this country? How do we want this period of time to be framed? ‘Cause if you think about the ‘60s and the ‘70s, you have Black Power, “Black is beautiful,”
 
