@@ -23,7 +23,7 @@ source:             ./
 destination:        ./static
 
 port:               9002
-baseurl:            /
+baseurl:
 url:                http://wadezine.com
 
 # exclude this stuff when building the static site
@@ -40,7 +40,7 @@ exclude:            [
 site_name:          "Wade in the Water"
 site_description :  "An Oral History of the Movement"
 site_copyright:     "Copyright (c) 2016 Maya Meredith"
-site_url:           "http://wadezine.com/"
+site_url:           "http://wadezine.com"
 site_email:         "yatriksolanki@gmail.com"
 site_phone:
 
