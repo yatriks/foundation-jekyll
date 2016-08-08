@@ -5,7 +5,7 @@ current_version: 1.5.0
 foundation_version: 6.0.0
 
 author:
-  name:             Maya Meredith
+  name:             Maya Pascal
   email:            mayamere21@gmail.com
   twitter:          meetyourm
 
@@ -38,8 +38,8 @@ exclude:            [
 #ga_id:             ##-########-###
 site_name:          "Wade in the Water"
 site_description:  "The goal of Wade in the Water is to compose an image of the impact of the movement for Black lives has since the unrest in Ferguson in the summer and fall of 2014, from snapshots provided by a range of Black interviewees."
-site_copyright:     "Copyright (c) 2016 Maya Meredith"
-site_url:           "http://wadezine.com"
+site_copyright:     "Copyright (c) 2016 Maya Pascal"
+site_url:           "http://wadezine.com/"
 site_email:         "yatriksolanki@gmail.com"
 site_phone:
 
